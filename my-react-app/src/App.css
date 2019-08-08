@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 gray;
+  transition: .3s;
+  width: 35%;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 gray;
+}
+
+img {
+  width: 25%;
+  height: 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+
+a:hover {
+  color: silver;
+}

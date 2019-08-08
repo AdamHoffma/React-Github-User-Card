@@ -1,12 +1,12 @@
 import React from 'react';
-import CardList from './components/CardList.js'
+import Card from './components/Card.js'
 import './App.css';
 import axios from 'axios'
 
 
 class App extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       data: []
     }
@@ -29,8 +29,8 @@ class App extends React.Component {
   render() {    
     return (
       <div className="App">      
-        <h2>coming soon</h2>    
-            <CardList data={this.state.data}/>
+        <h1>GitHub User Cards</h1>    
+            <Card data={this.state.data}/>
 
       </div>
     )
